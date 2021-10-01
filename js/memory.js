@@ -1,11 +1,11 @@
 var image=[];
 // "image/image0.png";image[0]="image/image0.jpg";
-"image/image1.png";image[2]="image/image1.jpg";
-"image/image2.png";image[4]="image/image2.jpg";
-"image/image3.png";image[6]="image/image3.jpg";
-"image/image4.png";image[8]="image/image4.jpg";
-"image/image5.png";image[10]="image/image5.jpg";
-"image/image6.png";image[12]="image/image6.jpg";
+image[2]="image/image1.PNG";
+image[4]="image/image2.jpg";
+image[6]="image/image3.jpg";
+image[8]="image/image4.jpg";
+image[10]="image/image5.jpg";
+image[12]="image/image6.jpg";
 // image[14]="image/image7.jpg";
 
 var previous,current;
