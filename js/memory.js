@@ -11,6 +11,7 @@ image[12]="image/image6.jpg";
 // image[14]="image/image7.jpg";
 
 var previous,current;
+var prvExt,currExt;
 var previousid,currentid;
 var count=0;
 var Score=100;
@@ -124,8 +125,6 @@ function change(changeit)
 
 	if(count>1) 
 	{	
-		var prvExt;
-		var currExt;
 		if(previous){
 			prvExt=previous.split(".")[1]
 			previous=previous.split(".")[0]
