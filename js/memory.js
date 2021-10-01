@@ -1,6 +1,7 @@
 var image=[];
 // "image/image0.png";image[0]="image/image0.jpg";
-image[2]="image/image1.PNG";
+image[2]="image/image1.png";
+image[3]="image/image1.jpg";
 image[4]="image/image2.jpg";
 image[6]="image/image3.jpg";
 image[8]="image/image4.jpg";
