@@ -140,8 +140,8 @@ function change(changeit)
 			
 			document.getElementById(previousid).onclick="";
 			document.getElementById(currentid).onclick="";
-			document.getElementById(previousid).src=previous+"."+prvExt;
-			document.getElementById(currentid).src=current+"."+currExt;
+			document.getElementById(previousid).src=previous;
+			document.getElementById(currentid).src=current;
 			document.getElementById(changeit).id=" ";
 			wincondition++;
 			console.log(wincondition);
