@@ -1,10 +1,10 @@
 var image=[];
-image[0]="image/image3.jpg";
-image[1]="image/image3.png";
-image[2]="image/image1.png";
-image[3]="image/image1.jpg";
-image[4]="image/image2.jpg";
-image[5]="image/image2.png";
+image[0]="image/image1.jpg";
+image[1]="image/image1.png";
+image[2]="image/image2.jpg";
+image[3]="image/image2.png";
+image[4]="image/image3.jpg";
+image[5]="image/image3.png";
 // image[6]="image/image3.jpg";
 // image[8]="image/image4.jpg";
 // image[10]="image/image5.jpg";
