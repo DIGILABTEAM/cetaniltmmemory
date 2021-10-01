@@ -12,6 +12,7 @@ image[5]="image/image2.png";
 // image[14]="image/image7.jpg";
 
 var previous,current;
+var previous1,current1;
 var prvExt,currExt;
 var previousid,currentid;
 var count=0;
@@ -128,13 +129,13 @@ function change(changeit)
 	{	
 		if(previous){
 			prvExt=previous.split(".")[1]
-			previous=previous.split(".")[0]
+			previous1=previous.split(".")[0]
 		}
 		if(current){
 			currExt=current.split(".")[1]
-			current=current.split(".")[0]
+			current1=current.split(".")[0]
 		}
-		if(previous==current && previousid != currentid) 
+		if(previous1==current1 && previousid != currentid) 
 		{ 													//so that on 2 clicks over the same div it should not click.
 			
 			document.getElementById(previousid).onclick="";
@@ -146,7 +147,7 @@ function change(changeit)
 			console.log(wincondition);
 			
 		}
-		else if(previous!=current && previousid!=currentid) 
+		else if(previous1!=current1 && previousid!=currentid) 
 		{
 			
 			document.getElementById(previousid).src=previous;
