@@ -124,7 +124,9 @@ function change(changeit)
 
 	if(count>1) 
 	{	
+		if(previous)
 		previous=previous.split(".")[0]
+		if(current)
 		current=current.split(".")[0]
 		if(previous==current && previousid != currentid) 
 		{ 													//so that on 2 clicks over the same div it should not click.
