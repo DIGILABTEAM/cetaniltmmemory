@@ -124,17 +124,23 @@ function change(changeit)
 
 	if(count>1) 
 	{	
-		if(previous)
-		previous=previous.split(".")[0]
-		if(current)
-		current=current.split(".")[0]
+		prvExt;
+		currExt;
+		if(previous){
+			previous=previous.split(".")[0]
+			prvExt=previous.split(".")[1]
+		}
+		if(current){
+			current=current.split(".")[0]
+			currExt=current.split(".")[1]
+		}
 		if(previous==current && previousid != currentid) 
 		{ 													//so that on 2 clicks over the same div it should not click.
 			
 			document.getElementById(previousid).onclick="";
 			document.getElementById(currentid).onclick="";
-			document.getElementById(previousid).src=previous;
-			document.getElementById(currentid).src=current;
+			document.getElementById(previousid).src=previous+"."+prvExt;
+			document.getElementById(currentid).src=current+"."+currExt;
 			document.getElementById(changeit).id=" ";
 			wincondition++;
 			console.log(wincondition);
