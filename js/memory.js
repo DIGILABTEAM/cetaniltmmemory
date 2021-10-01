@@ -1,6 +1,6 @@
 var image=[];
 image[0]="image/image3.jpg";
-image[1]="image/image3.jpg";
+image[1]="image/image3.png";
 image[2]="image/image1.png";
 image[3]="image/image1.jpg";
 image[4]="image/image2.jpg";
