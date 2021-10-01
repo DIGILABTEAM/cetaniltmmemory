@@ -127,12 +127,12 @@ function change(changeit)
 		var prvExt;
 		var currExt;
 		if(previous){
-			previous=previous.split(".")[0]
 			prvExt=previous.split(".")[1]
+			previous=previous.split(".")[0]
 		}
 		if(current){
-			current=current.split(".")[0]
 			currExt=current.split(".")[1]
+			current=current.split(".")[0]
 		}
 		if(previous==current && previousid != currentid) 
 		{ 													//so that on 2 clicks over the same div it should not click.
