@@ -124,8 +124,8 @@ function change(changeit)
 
 	if(count>1) 
 	{	
-		prvExt;
-		currExt;
+		var prvExt;
+		var currExt;
 		if(previous){
 			previous=previous.split(".")[0]
 			prvExt=previous.split(".")[1]
