@@ -21,10 +21,10 @@ $ git remote add upstream https://github.com/prithaupadhyay/Memory-Game.git
 ```
 
 ## Author ✍️
-[Pritha Upadhyay](https://github.com/prithaupadhyay)
+[Vikas Gavandi](https://github.com/digilabsteam)
 
 ## Contribute
-Found a bug, please [create an issue](https://github.com/prithaupadhyay/Memory-Game/issues/new)
+Found a bug, please [create an issue](https://github.com/digilabsteam/cetaniltmmemory/issues/new)
 
 ## How can I support developers?
 
