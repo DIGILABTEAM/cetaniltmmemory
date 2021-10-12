@@ -17,7 +17,7 @@
 ```sh
 $ git clone https://github.com/{{your_username}}/Memory-Game.git
 $ cd Memory-Game
-$ git remote add upstream https://github.com/prithaupadhyay/Memory-Game.git
+$ git remote add upstream https://github.com/digilabsteam/cetaniltmmemory
 ```
 
 ## Author ✍️
