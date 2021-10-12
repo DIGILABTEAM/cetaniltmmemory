@@ -8,7 +8,7 @@
 <hr>
 <p align="center"> 
   Memory game with a Geeky :nerd_face: touch.
-  Check the live version <a href="https://prithaupadhyay.github.io/Memory-Game/">here</a>
+  Check the live version <a href="https://digilabsteam.github.io/memorygame/">here</a>
 </p>
 
 ## Developement
@@ -35,6 +35,6 @@ We're always happy to receive your feedback!
 
 ## License
 
-> © [Pritha Upadhyay](https://github.com/prithaupadhyay)
+> © [Vikas Gavandi](https://github.com/digilabsteam)
 
-<p align="center"> Made with ❤ by <a href="https://github.com/prithaupadhyay">Pritha Upadhyay</a></p>
+<p align="center"> Made with ❤ by <a href="https://github.com/digilabsteam">Vikas Gavandi</a></p>
